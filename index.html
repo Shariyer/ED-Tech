@@ -365,8 +365,69 @@
         <button class="btn btn-outline-primary px-4 py-2">View All</button>
       </div>
     </section>
+    <br>
     <!-- Successful students section ends  -->
-    
+  <!-- Accordion part [Q & A] section start    -->
+  <section class="container my-5 text-center d-flex flex-column justify-content-center ">
+    <h2 class="fw-bolder">Frequently Asked Questions</h2>
+    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+
+    <div class="accordion  mt-5" id="accordionExample">
+      <div class="accordion-item ">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            What's the difference between flex-box and grid?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>The major difference between flex-box and grid is flex-box is uni-directional whereas, grid is bi-directional.</strong> Inside flex-box, we can only flex items in row or in column but in grid, we can do in both column and row direction. In flex-box, we can align items in may different ways such as center,around , between , evenly etc and also vertically and horizontaly by using justifying content and align items on the otherhand, we can't do such things in grid. Gap is a property of grid can only be used inside a grid but we can't use it in flex-box.  
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item ">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            What's the difference between tailwind and bootstrap? 
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>Both tailwind and bootstrap is CSS framwork. Both has vast library support but in tailwind, it has a better customization support than bootstrap.</strong>Bootstrap saves lots of time but in tailwind it can be time consuming. Bootstrap's layout are simple and identical whereas, tailwind has uniqueness. Bootstrap is totally free but tailwind has limitaions which only be used by credit. Bootstrap has limited color support but in tailwind is vast. We can direactly use custom color in tailwind but in bootstrap we can't.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item ">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+           What is CSS box model?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse fw-bold" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>CSS box model generally explains all the properties of a rectangular box.</strong> Each displayable component on a web page is composed of one or more rectangular boxes. CSS box models generally explain how these rectangular boxes are arranged up on a web page. These boxes can have varied features and interact with one another in different ways, but they all include a content area and optional surrounding padding, border, and margin regions.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item ">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            What is a symentic tag?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong> Semantics(means -Which is meaningful) is the tags in a Webpage which offer significance rather than merely display.</strong> Search engines and other user devices can employ semantic HTML tags to identify the significance underlying meaning of online pages.FOR EXAMPLE- header: This tag specifies a web page header. nav: This tag specifie container for navigation links. section: This specifies a web page section.
+              This element contains the primary portion, which provides information about the web page. aside tag:content which placed as a sidebar in a document. footer: It defines a footer for a document or section.
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+  <br>
+  <!-- Accordion part [Q & A] section end    -->
 
 </main>
 <!-- main section ends  -->
