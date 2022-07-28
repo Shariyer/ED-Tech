@@ -1,3 +1,24 @@
-/* .bg-img{
-    background-image:url(image/cover/cover-1.png);
-} */
+/* responsive caption for mobile devices */
+@media only screen and (max-width: 767px){
+    .carousel-caption  {
+        
+        font-size:10px !important;
+        line-height:18px !important;
+        color:#fff !important;
+        padding-bottom: 20px !important; 
+        text-align: center !important;
+    }
+    .cm p, a, h5{
+        margin: 2px !important;
+    }
+    .carousel-caption a{
+        position: relative;
+        top: 9px;
+        
+    }
+    .carousel-caption h5{
+        font-size: 10px;
+        line-height: 20px;
+    }
+}
+
